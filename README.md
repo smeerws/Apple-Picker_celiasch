@@ -17,7 +17,7 @@ Music:
 Sound:
 Visuals:
 
-Aktueller Stand: Spieleidee, Konzept nicht ausgearbeitet 
+Aktueller Stand: Spieleidee, Anfänge der Realisierung in Unity 
 
 <div>
 <img src= "./Screenshots/Skizzen_Apple-Picker.jpg" width="250">
