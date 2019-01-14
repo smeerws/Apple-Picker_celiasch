@@ -6,12 +6,13 @@ public class Player : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
+# Methode ResetPlayer() Move Player to middle of screen on floor when the game starts)
+
+    }
+
+    // Update is called once per frame
+    void Update () {
 #Methode Move() move character left right with arrow keys)
-#Methode BadApple() if the character touches a bad apple, stop the game)
+
     }
 }
