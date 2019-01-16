@@ -13,11 +13,12 @@ Web Browser
 Steuerung: Pfeil Tasten (rechte & linke Pfeiltaste) und rechte Maustaste für die Menüauswahl
 
 Ressourcen für dieses Spiel: 
-Music: 
-Sound:
-Visuals:
+Music: ToDo 
+Sound: ToDo
+Visuals: ToDo
 
 Aktueller Stand: Spieleidee, Anfänge der Realisierung in Unity 
+
 
 <div>
 <img src= "./Screenshots/Skizzen_Apple-Picker.jpg" width="250">
