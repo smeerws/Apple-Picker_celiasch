@@ -4,9 +4,15 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour {
+
     public void GotoMainScene()
     {
         SceneManager.LoadScene("Main");
+    }
+
+    public void GoToGameOverScene()
+    {
+        SceneManager.LoadScene("GameOver");
     }
 
     // Use this for initialization
@@ -22,3 +28,4 @@ public class SceneLoader : MonoBehaviour {
         //Methode LoadGameOverScene() Load GameOver scene if time is over or a bad apple is touched)
     }
 }
+
