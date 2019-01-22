@@ -1,8 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Collectable : MonoBehaviour {
+    public Text text;
 
     private const string TAGPLAYER = "Player";
     private const string TAGGROUND = "Floor";
@@ -52,8 +54,9 @@ public class Collectable : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-// Methode CountApple() Count the apples the player touches)
-// Methode BadApple() if the character touches a bad apple, stop the game)
-//Methode FallDown () the apples go down)
+        text.text = numberApples.ToString();
+        // Methode CountApple() Count the apples the player touches)
+        // Methode BadApple() if the character touches a bad apple, stop the game)
+        //Methode FallDown () the apples go down)
     }
 }
