@@ -15,7 +15,7 @@ Steuerung: Pfeil Tasten (rechte & linke Pfeiltaste) und rechte Maustaste für di
 Ressourcen für dieses Spiel: 
 Music: ToDo 
 Sound: ToDo
-Visuals: ToDo
+Visuals: selbstgemacht, frei verwendbar für jede/n
 
 Aktueller Stand: Spieleidee, Anfänge der Realisierung in Unity 
 
