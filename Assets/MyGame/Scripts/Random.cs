@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class Random : MonoBehaviour
 {
 
-    public Text textname;   
+    public Text textName;   
 
     // Use this for initialization
     void Start()
@@ -19,7 +19,7 @@ public class Random : MonoBehaviour
         Debug.Log(UnityEngine.Random.Range(1, 5));
         Debug.Log(RandomValueint());
 
-        textname.text = "Hallo";
+        textName.text = "Hallo";
 
     }
 
