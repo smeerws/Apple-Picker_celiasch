@@ -17,7 +17,7 @@ Music: ToDo
 Sound: ToDo
 Visuals: selbstgemacht, frei verwendbar für jede/n
 
-Aktueller Stand: Spieleidee, Anfänge der Realisierung in Unity 
+Aktueller Stand: Spieleidee, Realisierung in Unity 
 
 
 <div>
