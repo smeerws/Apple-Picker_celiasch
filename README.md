@@ -8,16 +8,16 @@ Unity Version: 2018.2.14.f1
 Visual Studio Version: 2017 15.9.4
 
 **Target Platform:**
-Web GL
-reference resolution: 16:9
+Web GL, reference resolution: 16:9
 
 **Steuerung:**
 Pfeil Tasten (rechte & linke Pfeiltaste) und rechte Maustaste für die Menüauswahl
 
 **Ressourcen für dieses Spiel:** 
+
 Visuals: selbstgemacht, frei verwendbar für jede/n
 
-**Aktueller Stand:** Realisierung in Unity, 90% ready 
+**Aktueller Stand:** Realisierung in Unity, 90% fertig 
 
 
 <div>
@@ -25,7 +25,6 @@ Visuals: selbstgemacht, frei verwendbar für jede/n
 </div>
 
 **Game Screenshots:**
-
 Home Screen
 <div>
 <img src="./Screenshots/HomeScreen.png" width="250">
@@ -40,6 +39,7 @@ Game Over
 <div>
 <img src="./Screenshots/GameOverScreen.png" width="250">
 </div>
+
 
 **Lessons Learned:** Steuerung mit Pfeiltasten, richtiges Anlegen von 2D Szenen, Buttons anlegen, Time Counter programmieren, Spawnen von Objekten, C# Basics
 
