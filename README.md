@@ -3,11 +3,11 @@
 Der Spieler muss mit den Pfeiltasten nach links und rechts gehen und hat 60 Sekunden Zeit um die guten, roten Äpfel einzusammeln, welche vom Himmel herunterfallen. Wenn er die schlechten, braunen Äpfel einsammelt ist das Spiel vorbei. Das Spiel ist ein 2D Browser Game.
 
 **Development Platform:**
-+Windows 10
-+Unity Version: 2018.2.14.f1
-+Visual Studio Version: 2017 15.9.4
-+Scripting Runtime Version: .NET 3.5 Equivalent
-+Api Compatibility Level: .NET 2.0 Subset
+* Windows 10
+* Unity Version: 2018.2.14.f1
+* Visual Studio Version: 2017 15.9.4
+* Scripting Runtime Version: .NET 3.5 Equivalent
+* Api Compatibility Level: .NET 2.0 Subset
 
 **Target Platform:**
 Web GL, reference resolution: 16:9
