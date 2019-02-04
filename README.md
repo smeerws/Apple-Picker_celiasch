@@ -6,6 +6,8 @@ Der Spieler muss mit den Pfeiltasten nach links und rechts gehen und hat 60 Seku
 Windows 10
 Unity Version: 2018.2.14.f1
 Visual Studio Version: 2017 15.9.4
+Scripting Runtime Version: .NET 3.5 Equivalent
+Api Compatibility Level: .NET 2.0 Subset
 
 **Target Platform:**
 Web GL, reference resolution: 16:9
@@ -25,6 +27,7 @@ Visuals: selbstgemacht, frei verwendbar für jede/n
 </div>
 
 **Game Screenshots:**
+
 Home Screen
 <div>
 <img src="./Screenshots/HomeScreen.png" width="250">
