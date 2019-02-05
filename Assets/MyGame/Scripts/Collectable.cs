@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class Collectable : MonoBehaviour
@@ -18,7 +16,7 @@ public class Collectable : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        //Methode ResetApple() Reset the apple counter to 0)       
+        //Reset the apple counter to 0)       
         numberApples = 0;
     }
 
@@ -26,10 +24,7 @@ public class Collectable : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("trigger enter" + collision.tag);
-
-        
-
+ 
         if (collision.tag == TAGPLAYER && gameObject.tag == "GoodApple")
         {
             numberApples++;
@@ -40,20 +35,7 @@ public class Collectable : MonoBehaviour
         {
             sceneLoader.GoToGameOverScene();
         }
-        Debug.Log("Number Apples " + numberApples);
+  
     }
     
-
-
-	
-	// Update is called once per frame
-	void Update ()
-    {
-        //text.text = numberApples.ToString();
-       // collected.text = numberApples.ToString();
-
-        // Methode CountApple() Count the apples the player touches)
-        // Methode BadApple() if the character touches a bad apple, stop the game)
-        //Methode FallDown () the apples go down)
-    }
 }

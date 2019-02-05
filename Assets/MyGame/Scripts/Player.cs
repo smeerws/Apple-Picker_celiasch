@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Player : MonoBehaviour
 {
@@ -41,7 +39,6 @@ public class Player : MonoBehaviour
         Camera gameCamera = Camera.main;
         minPosLeft = gameCamera.ViewportToWorldPoint(new Vector3(0f, 0f, 0f)).x + padding;
         maxPosRight = gameCamera.ViewportToWorldPoint(new Vector3(1f, 0f, 0f)).x - padding;
-        Debug.Log("min " + minPosLeft);
-        Debug.Log("max " + maxPosRight);
+
     }
 }

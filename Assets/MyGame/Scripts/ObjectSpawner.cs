@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ObjectSpawner : MonoBehaviour
 {
@@ -27,7 +25,6 @@ public class ObjectSpawner : MonoBehaviour
         timer = timer + Time.deltaTime;
         // timer += Time.deltaTime
 
-       // Debug.Log(timer + " " + (timer > spawnRateGood));
 
         if (timer > spawnRateGood)
         {
@@ -44,7 +41,6 @@ public class ObjectSpawner : MonoBehaviour
         timer = timer + Time.deltaTime;
         // timer += Time.deltaTime
 
-       // Debug.Log(timer + " " + (timer > spawnRateBad));
 
         if (timer > spawnRateBad)
         {
