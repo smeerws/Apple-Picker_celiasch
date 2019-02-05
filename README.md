@@ -4,7 +4,7 @@ Der Spieler muss mit den Pfeiltasten nach links und rechts gehen und hat 60 Seku
 
 **Development Platform:**
 * Windows 10
-* Unity Version: 2018.2.14.f1
+* Unity Version: 2018.2.14 f1
 * Visual Studio Version: 2017 15.9.4
 * Scripting Runtime Version: .NET 3.5 Equivalent
 * Api Compatibility Level: .NET 2.0 Subset
@@ -17,7 +17,10 @@ Pfeil Tasten (rechte & linke Pfeiltaste) und rechte Maustaste für die Menüausw
 
 **Ressourcen für dieses Spiel:** 
 
-Visuals: selbstgemacht, frei verwendbar für jede/n
+* Visuals: selbstgemacht, frei verwendbar für jede/n
+* Player Script: angelehnt an Code von Ida Wagenhofer 
+* Countdown Script: https://www.noob-programmer.com/unity3d/countdown-timer/
+* Object Spawner Script: angelehnt an Code von Sarah Glavan
 
 **Aktueller Stand:** Realisierung in Unity, 90% fertig 
 
