@@ -1,8 +1,6 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using System.Threading;
 using UnityEngine.SceneManagement;
 
 public class Countdown : MonoBehaviour
@@ -26,6 +24,7 @@ public class Countdown : MonoBehaviour
         }
         else
         {
+            PlayerPrefs.SetFloat("Time", timeLeft);
             SceneManager.LoadScene("GameOver");
         }
     }

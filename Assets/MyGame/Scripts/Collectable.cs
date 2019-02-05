@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Collectable : MonoBehaviour
 {
-    public Text text;
+    public Text collected;
 
     private const string TAGPLAYER = "Player";
     private const string TAGGROUND = "Floor";
@@ -28,17 +28,9 @@ public class Collectable : MonoBehaviour
     {
         Debug.Log("trigger enter" + collision.tag);
 
-        if (collision.tag == TAGGROUND)
-        {
-            if (numberApples >= 0)
-            {
-                numberApples--;
-            }
 
-            Destroy(gameObject);
-        }
 
-        else if (collision.tag == TAGPLAYER && gameObject.tag == "GoodApple")
+        if (collision.tag == TAGPLAYER && gameObject.tag == "GoodApple")
         {
             numberApples++;
             Destroy(gameObject);
@@ -56,7 +48,8 @@ public class Collectable : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
-        text.text = numberApples.ToString();
+        //text.text = numberApples.ToString();
+       // collected.text = numberApples.ToString();
 
         // Methode CountApple() Count the apples the player touches)
         // Methode BadApple() if the character touches a bad apple, stop the game)

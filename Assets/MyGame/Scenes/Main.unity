@@ -318,9 +318,9 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 114076270806199402, guid: 914367b5d95679c4199522d8c519f5c0,
         type: 2}
-      propertyPath: text
+      propertyPath: collected
       value: 
-      objectReference: {fileID: 1234649905}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 914367b5d95679c4199522d8c519f5c0, type: 2}
   m_IsPrefabAsset: 0
@@ -521,7 +521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c8b645189b5454c8c8ecc7f1429495, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 1234649905}
+  collected: {fileID: 1234649905}
   sceneLoader: {fileID: 1112768046}
 --- !u!224 &512832188
 RectTransform:
@@ -846,9 +846,9 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 114938837254823260, guid: 027e2139180c1744686d174842054cf9,
         type: 2}
-      propertyPath: text
+      propertyPath: collected
       value: 
-      objectReference: {fileID: 1234649905}
+      objectReference: {fileID: 0}
     - target: {fileID: 114938837254823260, guid: 027e2139180c1744686d174842054cf9,
         type: 2}
       propertyPath: sceneLoader
