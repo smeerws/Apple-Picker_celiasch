@@ -10,7 +10,7 @@ Der Spieler muss mit den Pfeiltasten nach links und rechts gehen und hat 60 Seku
 * Api Compatibility Level: .NET 2.0 Subset
 
 **Target Platform:**
-Web GL, reference resolution: 16:9
+Web GL, reference resolution: 1920x1080
 
 **Steuerung:**
 Pfeil Tasten (rechte & linke Pfeiltaste) und rechte Maustaste für die Menüauswahl
