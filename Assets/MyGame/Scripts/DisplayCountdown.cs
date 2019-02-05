@@ -4,10 +4,18 @@ using UnityEngine;
 
 public class DisplayCountdown : MonoBehaviour
 {
+    public Countdown countdown; 
 
-	// Use this for initialization
-	void Start ()
+    void Awake()
     {
+        countdown = GetComponent<Countdown>();
+    }
+
+
+    // Use this for initialization
+    void Start ()
+    {
+        countdown.text = (timeLeft + " sec");
         //Methode ResetCountdown() Reset the counter to 60 sec) 		
     }
 

@@ -28,7 +28,7 @@ public class Collectable : MonoBehaviour
     {
         Debug.Log("trigger enter" + collision.tag);
 
-
+        
 
         if (collision.tag == TAGPLAYER && gameObject.tag == "GoodApple")
         {
@@ -40,6 +40,7 @@ public class Collectable : MonoBehaviour
         {
             sceneLoader.GoToGameOverScene();
         }
+        Debug.Log("Number Apples " + numberApples);
     }
     
 
