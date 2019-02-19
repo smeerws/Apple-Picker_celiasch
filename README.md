@@ -49,4 +49,6 @@ Game Over
 
 **Lessons Learned:** Steuerung mit Pfeiltasten, richtiges Anlegen von 2D Szenen, Buttons anlegen, Time Counter programmieren, Spawnen von Objekten, C# Basics
 
+**Limitations:** Der Score funktioniert nicht. Die vergangene Zeit sowie der Score wird am Endscreen nicht korrekt angezeigt. 
+
 Copyright by Clea Eliasch
