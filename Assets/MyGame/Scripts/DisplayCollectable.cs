@@ -1,18 +1,13 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 
 public class DisplayCollectable : MonoBehaviour {
+    public DataContainer appleCounter;
+    public Text displayAppleCount;
 
-	// Use this for initialization
-	void Start ()
-    {
-        //Methode ResetCounter() Reset the counter to 0) 
-
-    }
-
-    // Update is called once per frame
     void Update () {
-        //Methode DisplayData() Get CountApple Data, Display Number in AppleCounter) 
 
+        displayAppleCount.text = appleCounter.apples.ToString();
     }
 }

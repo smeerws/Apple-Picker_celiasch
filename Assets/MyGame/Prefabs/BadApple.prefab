@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 212073877051148030}
   - component: {fileID: 61514117036010054}
   - component: {fileID: 50523806264284614}
-  - component: {fileID: 114938837254823260}
+  - component: {fileID: 114226107071252458}
   m_Layer: 0
   m_Name: BadApple
   m_TagString: BadApple
@@ -88,7 +88,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 7.59, y: 9.63}
   m_EdgeRadius: 0
---- !u!114 &114938837254823260
+--- !u!114 &114226107071252458
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c8b645189b5454c8c8ecc7f1429495, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collected: {fileID: 0}
+  appleCounter: {fileID: 11400000, guid: d621be026e9cd174b98b18f0832ac197, type: 2}
   sceneLoader: {fileID: 114322235064548418, guid: 1eda54fa8d2d90d4696e3b98c7f43d19,
     type: 2}
 --- !u!212 &212073877051148030

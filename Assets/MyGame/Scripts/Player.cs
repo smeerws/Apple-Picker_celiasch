@@ -10,7 +10,6 @@ public class Player : MonoBehaviour
     // Use this for initialization
     void Start ()
     {
-
         minPosLeft = -5.448667f;
         maxPosRight = 5.448667f;
         padding = 1.218f;
@@ -18,14 +17,12 @@ public class Player : MonoBehaviour
         SetupMoveBoundaries();
     }
 
-
     // Update is called once per frame
     void Update ()
     {
         Move();
         //Methode Move() move character left right with arrow keys)
-
-}
+    }
     private void Move()
     {
         var deltaX = Input.GetAxis("Horizontal") * Time.deltaTime * speed;
@@ -39,6 +36,5 @@ public class Player : MonoBehaviour
         Camera gameCamera = Camera.main;
         minPosLeft = gameCamera.ViewportToWorldPoint(new Vector3(0f, 0f, 0f)).x + padding;
         maxPosRight = gameCamera.ViewportToWorldPoint(new Vector3(1f, 0f, 0f)).x - padding;
-
     }
 }

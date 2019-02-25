@@ -7,6 +7,7 @@ public class SceneLoader : MonoBehaviour
     public void GotoMainScene()
     {
         SceneManager.LoadScene("Main");
+        FindObjectOfType<DataContainer>().apples = 0;
     }
 
     public void GoToGameOverScene()
